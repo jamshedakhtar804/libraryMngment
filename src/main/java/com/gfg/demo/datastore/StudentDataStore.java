@@ -25,7 +25,7 @@ public class StudentDataStore {
             int updateCount = ps.executeUpdate();
 
             if(updateCount>0){
-                System.out.println("student inserted successfully");
+                System.out.println("student inserted successfully inserted into database");
             }else{
                 System.out.println("failed to insert new student");
             }
