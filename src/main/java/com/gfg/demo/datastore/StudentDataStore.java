@@ -27,7 +27,7 @@ public class StudentDataStore {
             if(updateCount>0){
                 System.out.println("student inserted successfully");
             }else{
-                System.out.println("failed to insert");
+                System.out.println("failed to insert new student");
             }
 
             //step5 close the connection object

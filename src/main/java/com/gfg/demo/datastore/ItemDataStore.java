@@ -41,7 +41,7 @@ public class ItemDataStore {
                 if(updateCount>0){
                     System.out.println("Item inserted successfully...");
                 }else{
-                    System.out.println("Failed to insert item????");
+                    System.out.println("Failed to insert item");
                 }
             }
 
